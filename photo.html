@@ -31,21 +31,32 @@
             <div>
                 <h1 class="photo-main__title">Фотографии пользователей</h1>
             </div>
-            <div>
+            <div class="photo-main__title--wrapper">
                 <h2>Взгляните на фотографии, которые выкладывают пользователи! Видите, как не хватает ваших?</h2>
             </div>
-            <div class="photo-panorama">
-                <picture>
+            <section class="panorama">
+                <h3 class="visually-hidden">Панорама</h3>
+                <div class="photo-panorama">
                     <img src="#">
-                </picture>
-            </div>
-            <div class="photo-panorama__post">
-                <div class="photo-panorama__post--user">
-                    <b>Анна</b>
-                    <span class="photo-panorama__post--time">5 минут назад</span>
                 </div>
-                <div class="photo-panorama__post--text">Прыгать или нет? Напишите в коментарии свой совет и смотрите прямую трансляцию в перископе, задавайте свои вопросы!</div>
-            </div>
+                <div class="photo-main__post photo-panorama__post">
+                    <div class="photo-main__post--user photo-panorama__post--user">
+                        <b>Анна</b>
+                        <span class="photo-main__post--time photo-panorama__post--time">5 минут назад</span>
+                    </div>
+                    <p class="photo-main__post--text photo-panorama__post--text">Прыгать или нет? Напишите в коментарии свой совет и смотрите прямую трансляцию в перископе, задавайте свои вопросы!</p>
+                </div>
+                <a class="photo-main__post--like">Нравится</a>
+                <p class="photo-main__post--like-text">Нравится: 215</p>
+            </section>
+            <section class="photo-main__post">
+                <h3 class="visually-hidden">Фото Левона</h3>
+                <div class="photo-main__picture"> 
+                    <img src="#" alt="Фото Левона">
+                </div>
+
+
+            </section>
             
             <footer class="contacts">
                 <h3 class="contacts__title">Остались вопросы? Свяжитесь с нами!</h3>
